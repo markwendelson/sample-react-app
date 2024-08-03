@@ -1,0 +1,88 @@
+/* Container style */
+.home-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+}
+
+/* Logout button style */
+.logout-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Search box and button container */
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Input and button styles */
+.search-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 130px);
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Delete button style */
+.delete-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* GeoInfo card style */
+.geo-info-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/* History list style */
+.history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.history-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.history-item button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
